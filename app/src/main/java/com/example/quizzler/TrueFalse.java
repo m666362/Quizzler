@@ -1,11 +1,10 @@
 package com.example.quizzler;
 
-public class truefalse {
-
+public class TrueFalse {
     private int mQuestionid;
     private boolean mAnswer;
 
-    public truefalse(int questionresourceid, boolean trueorfalse){
+    public TrueFalse(int questionresourceid, boolean trueorfalse){
 
         mQuestionid = questionresourceid;
         mAnswer = trueorfalse;
